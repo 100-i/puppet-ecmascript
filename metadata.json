@@ -1,0 +1,15 @@
+{
+  "name": "100-ecmascript",
+  "version": "0.1.0",
+  "author": "100",
+  "summary": "Add support for Ecmascript.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/100-i/puppet-ecmascript.git",
+  "project_page": "https://github.com/100-i/puppet-ecmascript",
+  "issues_url": "https://github.com/100-i/puppet-ecmascript/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
