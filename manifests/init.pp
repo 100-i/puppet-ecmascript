@@ -44,7 +44,7 @@
 #
 class ecmascript {
   package { 'babel':
-    version => 'lts',
-    require => Class['nodejs']
+    provider => 'npm',
+    require  => Class['nodejs']
   }
 }
